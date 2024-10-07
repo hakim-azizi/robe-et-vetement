@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Robe et V&ecirc;tement: Robe.</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+</head>
+<body>
+<div class="position:relative;">
+<div id="panier" onclick="voirpanier();"><p>&nbsp;</p></div>
+<div id="vuepanier">&nbsp;Votre panier est vide&nbsp;</div>
+<h1>Robe et V&ecirc;tement: Robe.</h1>
+<h2 class="presentation">D&eacute;couvvrez nos somptueuses robes.</h2>
+<p class="presentation">Vous trouverez une s&eacute;lection de v&ecirc;tement femme,
+tels que de magnifiques robes robe de tr&egrave;s grande qualit&eacute;,
+au prix le plus bas possible:</p>
+<div id="ajtpanier">Erreur</div>
+<div class="article">
+<h2>Robe plissee orange et bleu.</h2>
+<p>Ref: rob1<br>
+pr&eacute;sentation de l&apos;article</p>
+<img id="face1" class="photo" src="photo/robe-plissee-orange-et-bleu.jpg" title="Robe plissee orange et bleu.">
+<img id="profiledroit1" class="photo" src="photo/robe-plissee-orange-et-bleu-profile-droit.jpg" title="Robe plissee orange et bleu.">
+<img  id="dos1" class="photo" src="photo/robe-plissee-orange-et-bleu-dos.jpg" title="Robe plissee orange et bleu.">
+<img id="profilegauche1" class="photo" src="photo/robe-plissee-orange-et-bleu-profile-gauche.jpg" title="Robe plissee orange et bleu.">
+<script>
+rotation(1);
+</script>
+<form id="article1">
+<input id="nomarticle1" name="nomarticle" type="hidden" value="robe plissee orange et bleu">
+<input id="prix1" name="prix" type="hidden" value=14.99>
+<p>Prix: <b class="prix">14,99&euro;</b></p>
+<p>
+<select id="taille1" name="taille">
+<option value="0">Taille: </option> 
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+</select></p>
+<p id="reptaille1" class="reponse">&nbsp;</p>
+<p><select id="quantite1" name="quantite">
+<option value=0>Quantit&eacute;: </option>
+<option value=1>1</option>
+<option value=2>2</option>
+<option value=3>3</option>
+<option value=4>4</option>
+</select></p>
+<p id="repquantite1" class="reponse">&nbsp;</p>
+</form>
+<p class="centrer"><button onclick="idarticle=1; ajoutepanier();">&nbsp;ajout&eacute; au panier&nbsp;</button></p>
+</div>
+<div class="article">
+<h2>Robe bustier longue camel.</h2>
+<p>Ref: rob2<br>
+pr&eacute;sentation de l&apos;article</p>
+<img id="face2" class="photo" src="photo/robe-bustier-longue-camel.jpg" title="Robe bustier longue camel.">
+<img id="profiledroit2" class="photo" src="photo/robe-bustier-longue-camel-profile-droit.jpg" title="Robe bustier longue camel.">
+<img  id="dos2" class="photo" src="photo/robe-bustier-longue-camel-dos.jpg" title="Robe bustier longue camel.">
+<img id="profilegauche2" class="photo" src="photo/robe-bustier-longue-camel-profile-gauche.jpg" title="Robe bustier longue camel.">
+<script>
+rotation(2);
+</script>
+<form id="article2">
+<input id="nomarticle2" name="nomarticle" type="hidden" value="robe bustier longue camel">
+<input id="prix2" name="prix" type="hidden" value="15.99">
+<p>Prix: <b class="prix">15,99&euro;</b></p>
+<p><select id="taille2" name="taille">
+<option value="0">Taille: </option> 
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+</select></p>
+<p id="reptaille2" class="reponse">&nbsp;</p>
+<p><select id="quantite2" name="quantite">
+<option value="0">Quantit&eacute;: </option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select></p>
+<p id="repquantite2" class="reponse">&nbsp;</p>
+</form>
+<p class="centrer"><button onclick="idarticle=2; ajoutepanier();">&nbsp;ajout&eacute; au panier&nbsp;</button></p>
+</div>
+<div class="article">
+<h2>Robe longue blanche.</h2>
+<p>Ref: rob3<br>
+pr&eacute;sentation de l&apos;article</p>
+<img id="face3" class="photo" src="photo/robe-longue-blanche.jpg" title="Robe longue blanche.">
+<img id="profiledroit3" class="photo" src="photo/robe-longue-blanche-profile-droit.jpg" title="Robe longue blanche.">
+<img  id="dos3" class="photo" src="photo/robe-longue-blanche-dos.jpg" title="Robe longue blanche.">
+<img id="profilegauche3" class="photo" src="photo/robe-longue-blanche-profile-gauche.jpg" title="Robe longue blanche.">
+<script>
+rotation(3);
+</script>
+<form id="article3" action="ajouter-au-panier.html" method="get">
+<input id="nomarticle3" name="nomarticle" type="hidden" value="robe longue blanche">
+<input id="prix3" name="prix" type="hidden" value="14.99">
+<p>Prix: <b class="prix">14,99&euro;</b></p>
+ <p><select id="taille3" name="taille">
+<option value="0">Taille: </option> 
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+</select></p>
+<p id="reptaille3" class="reponse">&nbsp;</p>
+<p><select id="quantite3" name="quantite">
+<option value="0">Quantit&eacute;: </option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select></p>
+<p id="repquantite3" class="reponse">&nbsp;</p>
+</form>
+<p class="centrer"><button onclick="idarticle=3; ajoutepanier();">&nbsp;ajout&eacute; au panier&nbsp;</button></p>
+</div>
+<div class="article">
+<h2>Robe soiree cuivree.</h2>
+<p>Ref: rob4<br>
+pr&eacute;sentation de l&apos;article</p>
+<img id="face4" class="photo" src="photo/robe-soiree-cuivree.jpg" title="Robe soiree cuivree.">
+<img id="profiledroit4" class="photo" src="photo/robe-soiree-cuivree-profile-droit.jpg" title="Robe soiree cuivree.">
+<img  id="dos4" class="photo" src="photo/robe-soiree-cuivree-dos.jpg" title="Robe soiree cuivree.">
+<img id="profilegauche4" class="photo" src="photo/robe-soiree-cuivree-profile-gauche.jpg" title="Robe soiree cuivree.">
+<script>
+rotation(4);
+</script>
+<form id="article4" action="ajouter-au-panier.html" method="get">
+<input id="nomarticle4" name="nomarticle" type="hidden" value="Robe soiree cuivree">
+<input id="prix4" name="prix" type="hidden" value="79.99">
+<p>Prix: <b class="prix"> 79.99&euro;</b><br>
+<p><select id="taille4" name="taille">
+<option value="0">Taille: </option> 
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+</select></p>
+<p id="reptaille4" class="reponse">&nbsp;</p>
+<p><select id="quantite4" name="quantite">
+<option value="0">Quantit&eacute;: </option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select></p>
+<p id="repquantite4" class="reponse">&nbsp;</p>
+</form>
+<p class="centrer"><button onclick="idarticle=4; ajoutepanier();">&nbsp;ajout&eacute; au panier&nbsp;</button></p>
+</div>
+</div>
+<script src="javascript/js1.js"></script>
+</body>
+</html>
